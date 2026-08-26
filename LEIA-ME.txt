@@ -1,0 +1,93 @@
+EXCELENCIA MEDIACOES - O COMBATE CONTRA OS JUROS ABUSIVOS
+
+Extraia o ZIP inteiro e abra ABRIR_JOGO.bat.
+Tambem e possivel abrir index.html diretamente no navegador.
+
+Esta versao possui 25 personagens jogaveis, incluindo Tati, e o chefe BANK
+redesenhado como um cofre quadrado com bracos, maos e pernas.
+
+NOVIDADES
+- Coletar os 18 carimbos agora libera a ESFERA DOS CARIMBOS para qualquer um
+  dos 25 personagens durante a batalha contra o BANK.
+- Q - Arremessar: o personagem carrega uma esfera roxa acima da cabeca e a
+  arremessa no BANK, causando exatamente 70 pontos de dano.
+- E - Absorver: a mesma esfera e absorvida pelo personagem, que passa a andar
+  com velocidade 2x e a disparar a caneta com cadencia 1,5x ate o fim da luta.
+- A esfera possui nucleo luminoso, aneis de energia, particulas, raios,
+  crescimento, trajeto ate o BANK, absorcao e impacto animados.
+- O especial pode ser usado uma vez por batalha depois que os 18 carimbos
+  forem encontrados durante a fase.
+- Musica instrumental retro criada para a fase normal, o nivel EXCELENCER,
+  as cenas da historia e a batalha contra o BANK.
+- Efeitos sonoros reforcados para pulo, disparos, impactos, dano, inimigos,
+  especiais, vitoria e coleta.
+- O som pode ser ligado ou desligado no menu, na pausa ou pela tecla M. A
+  preferencia fica salva no navegador. Nao existe narracao de voz.
+- Dezoito carimbos vermelhos colecionaveis foram espalhados pela fase como
+  as moedas de um jogo de plataforma. Cada um vale pontos e possui animacao,
+  brilho, efeito sonoro e contador no HUD.
+- Coletar todos os carimbos concede um bonus adicional de pontuacao.
+- Paulo substitui Celliny como personagem da historia: participa da abertura,
+  aparece nos retratos coletivos e fala novamente na cena de encerramento.
+- Nas cenas coletivas, Paulo nao ocupa mais um lugar no chao: ele aparece
+  voando acima de toda a equipe usando a pose do Super Shock.
+- Celliny permanece disponivel normalmente entre os 25 personagens jogaveis.
+- Nova historia em baloes de dialogo depois da selecao do personagem.
+- Pequeno confronto verbal com o BANK antes do inicio da batalha.
+- Nova cena de encerramento apos derrotar o BANK, com toda a equipe e o
+  documento NOVO CARNÊ.
+- Os dialogos avancam por clique, ENTER ou ESPACO e podem ser pulados.
+- Hiroshi teve a inversao indevida da caminhada removida e agora anda
+  corretamente para o lado pressionado, assim como Gabriel Iglesias.
+- Gabriel Iglesias teve a orientacao da caminhada invertida e agora anda
+  corretamente para o lado pressionado.
+- Camila recebeu a mesma proporcao corporal compacta de Holanda, mantendo
+  rosto, cabelo, uniforme e identidade proprios.
+- Hiroshi, Camila, Roberta e Zuleika foram refeitos a partir das novas fotos,
+  com rosto, cabelo, porte fisico, oculos, piercings e tatuagens harmonizados.
+- Isabelly voltou a usar a largura corporal normal: a antiga compressao
+  horizontal de 35% foi removida do codigo do jogo.
+- Segundo lote de retratos reais aplicado a Bruno, Jeniffer, Tati, Robert,
+  Isabelly, Simone, Celliny, Davi, Kauane, Larissa, Matheus, Taina, Richard,
+  Pedro e Jorge.
+- Richard agora aparece com o nome correto e usa a mesma proporcao corporal
+  compacta de Pedro, preservando rosto, barba e oculos.
+- O primeiro lote continua aplicado a Kaio, Gabriel Iglesias, Holanda, Caires
+  e Nicole. Nicole aparece sem oculos, conforme solicitado.
+- Joao agora usa o polo oficial da equipe, mantendo cabelo penteado para tras,
+  barba cheia, alargadores e piercings.
+- Todos preservam o uniforme oficial, cracha e as quatro animacoes do jogo.
+- Todos os personagens caminham animados para a esquerda e para a direita.
+- Isabelly agora aparece com proporcao corporal natural, sem afinamento artificial.
+- A caminhada de Gabriel Iglesias e Hiroshi foi orientada corretamente em A/D.
+- J e K ativam uma pose de ataque antes do disparo.
+- O BANK esta apoiado no mesmo nivel do chao dos personagens.
+- Os inimigos lancam uma esfera de energia por vez, sempre em linha reta.
+- O ataque do BANK e uma chuva de contratos que caem do ceu.
+- Novo cenario tematico de mediacao financeira.
+- Nivel EXCELENCER: 30% menos inimigos e 30% menos disparos, mantendo mais vida e BANK fortalecido.
+- No EXCELENCER, o grampo viaja 35% mais rapido e pode ser disparado com intervalo 25% menor.
+
+CONTROLES
+A/D ou setas: mover
+ESPACO: pular / salto duplo
+J: disparar caneta azul
+K: disparar clipe metalico
+Z: especial secreto da Tati no chefe do EXCELENCER
+X: especial Meu heroi da Tati no chefe do EXCELENCER
+ESC: pausar
+M: ligar / desligar musica e efeitos
+Q: arremessar a esfera roxa apos coletar os 18 carimbos
+E: absorver a esfera roxa apos coletar os 18 carimbos
+
+EASTER EGGS DA TATI
+- Selecione Tati e alcance o BANK no nivel EXCELENCER.
+- Z - SozinhoNinguemVence: os 25 personagens se reunem no chao, erguem os
+  bracos, carregam o logo oficial da Excelencia Mediacoes e o arremessam no BANK.
+  Remove 45 pontos de vida.
+- X - Meu heroi: Tati chama Paulo, o Super Shock. Ele surge dentro da arena com
+  raios saindo do corpo, pousa no chao ao lado da Tati e dispara um raio azul
+  contra o BANK. Paulo e exclusivo deste especial e nao aparece na selecao.
+  Remove 50 pontos de vida.
+- Os dois especiais protegem Tati durante a animacao.
+- Escolha com cuidado: ao usar Z ou X, o outro fica bloqueado naquela batalha.
