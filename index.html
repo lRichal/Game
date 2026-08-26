@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>Excelência Mediações — O Combate Contra os Juros Abusivos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="app">
+    <canvas id="game" width="1280" height="720" aria-label="Área do jogo"></canvas>
+
+    <section id="loading" class="panel screen active" aria-live="polite">
+      <div class="card compact">
+        <div class="brand-mark">EM</div>
+        <h1>Preparando a missão</h1>
+        <div class="load-track"><div id="loadFill"></div></div>
+        <p id="loadText">Carregando artes… 0%</p>
+      </div>
+    </section>
+
+    <section id="menu" class="panel screen">
+      <div class="hero-card">
+        <p class="eyebrow">EXCELÊNCIA MEDIAÇÕES APRESENTA</p>
+        <h1>O COMBATE CONTRA<br><span>OS JUROS ABUSIVOS</span></h1>
+        <p class="subtitle">Escolha um agente, atravesse o escritório e derrote o BANK.</p>
+        <div class="menu-actions">
+          <button id="playBtn" class="primary">JOGAR</button>
+          <button id="excelencerBtn" class="excelencer-button">NÍVEL EXCELENCER</button>
+          <button id="soundToggleMenu" class="sound-button" aria-pressed="true">♫ SOM: LIGADO</button>
+          <button id="howBtn">COMO JOGAR</button>
+        </div>
+        <p class="controls-hint"><b>A/D</b> mover · <b>J/K</b> disparos · <b>Q/E</b> esfera completa · <b>M</b> som</p>
+      </div>
+    </section>
+
+    <section id="how" class="panel screen">
+      <div class="card instructions">
+        <p class="eyebrow">TREINAMENTO</p>
+        <h1>Como jogar</h1>
+        <div class="instruction-grid">
+          <article><kbd>A</kbd><kbd>D</kbd><h2>Mover</h2><p>Setas também funcionam.</p></article>
+          <article><kbd>ESPAÇO</kbd><h2>Pular</h2><p>Aperte novamente para salto duplo.</p></article>
+          <article><kbd>J</kbd><h2>Caneta azul</h2><p>Tiro rápido e preciso.</p></article>
+          <article><kbd>K</kbd><h2>Clipe metálico</h2><p>Mais lento, causa mais dano.</p></article>
+          <article><kbd>Q</kbd><h2>Arremessar esfera</h2><p>Com 18 carimbos, causa 70 de dano no BANK.</p></article>
+          <article><kbd>E</kbd><h2>Absorver esfera</h2><p>Com 18 carimbos, libera velocidade e caneta acelerada.</p></article>
+        </div>
+        <p class="mission-note">Evite os documentos, elimine os JUROS e enfrente o cofre BANK.</p>
+        <p class="mission-note">Colete os 18 carimbos vermelhos. No BANK, escolha: <b>Q</b> arremessa a esfera ou <b>E</b> absorve seu poder.</p>
+        <p class="mission-note">Segredo da Tati no BANK Excelencer: <b>Z</b> SozinhoNinguemVence ou <b>X</b> Meu herói. Escolha um.</p>
+        <p id="difficultyNote" class="difficulty-note">NÍVEL PADRÃO · Equilíbrio entre ação e desafio.</p>
+        <div class="menu-actions"><button id="howContinue" class="primary">ESCOLHER PERSONAGEM</button><button class="backMenu">VOLTAR</button></div>
+      </div>
+    </section>
+
+    <section id="select" class="panel screen">
+      <div class="select-shell">
+        <div class="select-head">
+          <div><p class="eyebrow">SELEÇÃO DE AGENTE</p><h1>Escolha seu personagem</h1></div>
+          <div class="selection-status"><div id="levelBadge" class="level-badge">NÍVEL PADRÃO</div><div id="pageLabel" class="page-label"></div></div>
+        </div>
+        <div id="characterGrid" class="character-grid"></div>
+        <div class="select-footer">
+          <button id="prevBtn">← ANTERIORES</button>
+          <div id="selectedName">BRUNO</div>
+          <button id="nextBtn">PRÓXIMOS →</button>
+        </div>
+        <div class="menu-actions"><button id="startBtn" class="primary">JOGAR COM ESTE PERSONAGEM</button><button class="backMenu">VOLTAR</button></div>
+      </div>
+    </section>
+
+    <section id="dialogue" class="panel screen dialogue-screen" aria-live="polite">
+      <div class="dialogue-shell">
+        <div class="dialogue-topline">
+          <span id="dialogueScene">HISTÓRIA</span>
+          <span id="dialogueProgress">1/1</span>
+          <button id="dialogueSkip" class="dialogue-skip">PULAR CENA</button>
+        </div>
+        <div class="dialogue-balloon">
+          <div id="dialoguePortraitWrap" class="dialogue-portrait"><canvas id="dialoguePortrait" width="240" height="260"></canvas></div>
+          <div class="dialogue-copy">
+            <p id="dialogueSpeaker" class="dialogue-speaker">NARRADOR</p>
+            <p id="dialogueText" class="dialogue-text"></p>
+            <p class="dialogue-hint">Clique em continuar ou pressione ENTER / ESPAÇO.</p>
+          </div>
+          <button id="dialogueNext" class="primary dialogue-next">CONTINUAR →</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="pause" class="panel screen passthrough">
+      <div class="card compact"><h1>PAUSADO</h1><p>Pressione ESC para continuar.</p><div class="menu-actions"><button id="resumeBtn" class="primary">CONTINUAR</button><button id="soundTogglePause" class="sound-button" aria-pressed="true">♫ SOM: LIGADO</button></div></div>
+    </section>
+
+    <section id="end" class="panel screen">
+      <div class="card compact">
+        <p id="endEyebrow" class="eyebrow">MISSÃO ENCERRADA</p>
+        <h1 id="endTitle">Vitória!</h1>
+        <p id="endText"></p>
+        <div class="menu-actions"><button id="retryBtn" class="primary">JOGAR NOVAMENTE</button><button id="changeBtn">TROCAR PERSONAGEM</button></div>
+      </div>
+    </section>
+
+    <div id="touchControls" aria-hidden="true">
+      <div><button data-key="left">◀</button><button data-key="right">▶</button></div>
+      <div><button data-key="jump">↑</button><button data-key="pen">J</button><button data-key="clip">K</button><button data-key="stampThrow">Q</button><button data-key="stampAbsorb">E</button></div>
+    </div>
+  </main>
+  <script src="game.js"></script>
+</body>
+</html>
